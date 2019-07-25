@@ -1,2 +1,2 @@
-# watchplay
-watch play
+# playerorwatcher
+player or watcher
