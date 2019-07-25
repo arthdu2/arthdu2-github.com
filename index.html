@@ -35,6 +35,15 @@ else{
   console.log('service workers are not supported.');
 }
       </script>
+  <script>
+        function ready() {
+          alert('DOM is ready');
+          document.getElementById('quoteDisplay').innerHTML = " ";
+          
+        }
+      
+        document.addEventListener("DOMContentLoaded", ready);
+      </script>
     <script>var quotes = ['Pegue 5 objetos de cores diferentes em 25 segundos','Realize 50 polichinelos em 2 minutos', 'Passe por debaixo de 8 mesas em 40 segundos','Levante duas pessoas mais leve que voce simultaneamente', 'Levante alguem mais pesado que vc durante 10 segundos','Plante bananeira por 20 segundos']
       var randomNumberStable= -1;
       
